@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gisvisua/public_html/peregrine2/
-    - /bin/cp build/* $DEPLOYPATH
+    - /bin/cp -r build/. $DEPLOYPATH
